@@ -28,6 +28,10 @@
 npm install
 ```
 <p>
+  after that you must change the mongoURL at .env archive to your database link
+</p>
+
+<p>
   Next step is to run, for this use :
 </p>
 
