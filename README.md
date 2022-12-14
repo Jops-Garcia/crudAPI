@@ -42,12 +42,12 @@ node index.js
 
 <p>
   There are five routes for use (all five returns a JSON) Create, Read, Update, Delete and one default. CRUD for posts are on route "{URL}/post".
-  For testing i used a API client called "Insomnia", you can choose one that you like more.
+  For testing i used a API client called "Insomnia", you can choose one that you like more. If anything goes wrong a error message will be send.  (note: this error message will not close the aplication)
 </p>
 
 <h3 id="create">Create</h3>
 <p>
-    This route is on "{URL}/post", you must use the method "POST" to access. The response will be an JSON object with a message informing that the post is saved, and the post attributes if they are not null, if one of them are null, an error message will be shown and they will not be saved. (note: this error message will not close the aplication)
+    This route is on "{URL}/post", you must use the method "POST" to access. The response will be an JSON object with a message informing that the post is saved, and the post attributes if they are not null, if one of them are null, an error message will be shown and they will not be saved.
 </p>
 <p>Example img:</p>
 
@@ -56,17 +56,31 @@ node index.js
 
 <h3 id="read">Read</h3>
 <p>
-    This route is on "{URL}/post", you must use the method "GET" to access.The response will be an JSON object with a array that contains all posts that was previously created. If the collection is empty  an error message will be shown saying "No posts found". (note: this error message will not close the aplication)
+    This route is on "{URL}/post", you must use the method "GET" to access.The response will be an JSON object with a array that contains all posts that was previously created. If the collection is empty  an error message will be shown saying "No posts found".
 </p>
 <p>Example img:</p>
+
 ![Captura de Tela (397)](https://user-images.githubusercontent.com/56653059/207733162-a1bcf841-4d2b-4f26-a152-2f8bce372649.png)
 
 <h3 id="update">Update</h3>
+<p>
+This route is on "{URL}/post/_id" (where _id is the id of the object that you want to UPDATE), you must use the method "PATCH" to access.The response will be an JSON object with a message sayng "post updated successfully" (like "<a href="#create">Create</a>" route), the title and description of the post updated. If object not found a error message will be shown sayng "Post not found". 
+</p
+<p>Example img:</p>
+
+![Captura de Tela (403)](https://user-images.githubusercontent.com/56653059/207734845-49bcce13-b2d5-475a-a2ab-559d366c9b9f.png)
+
 
 
 <h3 id="delete">Delete</h3>
+<p>
+This route is on "{URL}/post/_id" (where _id is the id of the object that you want to DELETE), you must use the method "DELETE" to access.The response will be an JSON object with a message sayng "post deleted". If object not found a error message will be shown sayng "Post not found". 
+</p
+<p>Example img:</p>
+
+![Captura de Tela (401)](https://user-images.githubusercontent.com/56653059/207735392-aff153e3-c30c-4f89-9445-1cc19132462a.png)
 
 
 <h3 id="default">Default</h3>
-
+Any other route will lead you to "<a href="#read">Read</a>"
 
