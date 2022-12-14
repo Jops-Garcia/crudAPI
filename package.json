@@ -1,0 +1,21 @@
+{
+  "name": "crudhashdex",
+  "version": "1.0.0",
+  "description": "Hashdex software engineering challenge. Rest API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js "
+  },
+  "author": "Joao Pedro Garcia Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
