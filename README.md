@@ -16,7 +16,7 @@
 
 <h2 id="about">About</h2>
 <p>
-    falar do modelo do dado!
+    CRUD API challange that i made using Mode.js, MongoDB, mongoose and express. Data structure was not defined so i keep it simple using only two attributes, both String, title and description, but even with more attributes or another data type would not change much, as it is the same principle. 
 </p>
 
 <h2 id="getting-started">Getting started</h2>
@@ -35,7 +35,7 @@ npm install
 node index.js
 ```
 <p>
-  Now the API is prepared for use.
+  Now the API is ready to use.
 </p>
 
 <h2 id="routes">Routes</h2>
