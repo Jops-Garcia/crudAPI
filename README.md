@@ -28,7 +28,7 @@
 npm install
 ```
 <p>
-  After that you must change the mongoURL at .env archive to your database link
+  After that you must change the mongoURL variable at .env archive to your database link
 </p>
 
 <p>
