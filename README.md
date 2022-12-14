@@ -4,6 +4,8 @@
 <ol>
     <li><a href="#about">About</a></li>
     <li><a href="#getting-started">Getting started</a></li>
+    <li><a href="#routes">Routes</a></li>
+    <li><a href="#testing">Testing</a></li>
 </ol>
 
 <h2 id="about">About</h2>
