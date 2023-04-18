@@ -1,4 +1,4 @@
-# CRUD API for Hashdex challenge.
+# CRUD API
 
 <h2>Contents</h2>
 <ol>
