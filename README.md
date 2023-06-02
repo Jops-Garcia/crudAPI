@@ -16,7 +16,7 @@
 
 <h2 id="about">About</h2>
 <p>
-    CRUD API challange that i made using Mode.js, MongoDB, mongoose and express. Data structure was not defined so i keep it simple using only two attributes, both String, title and description, but even with more attributes or another data type would not change much, as it is the same principle. 
+    CRUD API challenge that i made using Mode.js, MongoDB, mongoose and express. Data structure was not defined so i keep it simple using only two attributes, both String, title and description, but even with more attributes or another data type would not change much, as it is the same idea. 
 </p>
 
 <h2 id="getting-started">Getting started</h2>
